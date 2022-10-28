@@ -1,165 +1,27 @@
-<p align="center">
-<img src="https://telegra.ph/file/6ab4daac226292a112540.jpg" alt="YUKI BOT" width="500"/>
+<a align="center">
+   <img src="https://iili.io/DCbh5x.png">
+</a>
+</br>
+</br>
+<h1 align="center">──╍𝐗𝐢𝐚𝐧𝐳𝐡𝐞 𝐈𝐃╍──</h1>
+<hr><a href="https://github.com/Xianzhe-ID"><img src="http://readme-typing-svg.herokuapp.com?color=17E1E1&center=true&vCenter=true&multiline=false&lines=Welcome+to+my+Github+ʕ •ᴥ•ʔ;Don't+Forget+to+Follow+My+Github;Thanks+Guys+><" alt="Xianzhe ID"><hr>
+<div>
+  <a href="https://github.com/xianzhe-id"><img src="https://i.imgur.com/looze9c.gif" width="236" align="right">
+<div>
+
+𝗦𝗢𝗦𝗠𝗘𝗗
+<a href="https://instagram.com/xianzhe_xx/">```Instagram```</a> <br>
+<a href="https://tiktok.com/xianzhe.id/">```TikTok```</a> <br>
+<a href="https://wa.me/6285326781097?text=Hi">```WhatsApp```</a><hr>
+𝗚𝗥𝗢𝗨𝗣 𝗪𝗔
+<a href="https://chat.whatsapp.com/HP5Pbp9MT0eIaC5lfJgw9A">```Group1```</a> <br>
+<a href="https://chat.whatsapp.com/Fia1wnVRtJKGlqFiHfiAA8">```Group2```</a> <br><hr>
+𝗗𝗢𝗡𝗔𝗧𝗘<br>
+<a href="https://iili.io/Dj2K2n.jpg">```OVO```</a><br>
+<a href="https://iili.io/Dj2f7s.png">```Dana```</a><br>
+<a href="https://saweria.co/xianzhe">```Saweria```</a><hr>
+
+<h2 align="center">────╍ 𝐍𝐎𝐓𝐄 ╍────</h2>
 
 
-</p>
-<p align="center">
-<a href="#"><img title="YUKI BOT MULTI DEVICE" src="https://img.shields.io/badge/YUKI BOT MULTI DEVICE-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
-</p>
-<p align="center">
-<a href="https://github.com/saipulanuar/YukiBot2022"><img title="Author" src="https://img.shields.io/badge/Author-KINGOFBEAR-red.svg?style=for-the-badge&logo=github"></a>
-</p>
-<p align="center">
-<a href="https://github.com/"><img title="Followers" src="https://img.shields.io/github/followers/saipulanuar?color=blue&style=flat-square"></a>
-<a href="https://github.com/"><img title="Stars" src="https://img.shields.io/github/stars/saipulanuar/YukiBot2022?color=red&style=flat-square"></a>
-<a href="https://github.com//network/members"><img title="Forks" src="https://img.shields.io/github/forks/saipulanuar/YukiBot2022?color=red&style=flat-square"></a>
-</P>
-<p align="center">
-  <a href="https://github.com/saipulanuar/YukiBot2022#requirements">Requirements</a> •
-  <a href="https://github.com/saipulanuar/YukiBot2022#instalasi">Installation</a> •
-  <a href="https://github.com/saipulanuar/YukiBot2022#thanks-to">Thanks to</a> •
-  <a href="https://github.com/saipulanuar/YukiBot2022#Official-Group"> Official Group Bot</a> •
-  <a href="https://github.com/saipulanuar/YukiBot2022#donate">Donate</a>
-</p>
-</div>
----
-
-# YUKI BOT Whatsapp MD
-## For Users Termux Install Module [here](https://github.com/Ilhamskhyzi/node_modules)
-## Information
-> YUKI BOT whatsapp using a Baileys library.
-> Jika kamu menemukan semacam bug, harap untuk dimaklumi sementara
->
-> • NOTE: Pastikan Jaringan kalian lancar dan device kalian bagus:v, 
-> 
-> • Kalo pake termux mungkin bakal lama respon nya, saya sarankan pake heroku
-
-<h3 align="center">Made by :</h3>
-<p align="center">
-  <a href="https://github.com/saipulanuar"><img src="https://github.com/saipulanuar.png?size=128" height="128" width="128" /></a>
-  <a href="https://github.com/nurutomo"><img src="https://github.com/nurutomo.png?size=128" height="128" width="128" /></a>
-</p>
-
-## Tester Bot
-* Jika kamu menemukan bug jangan lupa buka Issues
-* Info Lebih Lanjut, Chat [Owner-YukiBot](https://wa.me/6288279268363)
-
-## How To Change Menu Display
-----
-### Gif Menu Display
-```ts
- let message = await prepareWAMessageMedia({ video: fs.readFileSync('./media/shiro.mp4'), gifPlayback: true }, { upload: conn.waUploadToServer })
-     const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
-     templateMessage: {
-         hydratedTemplate: {
-           videoMessage: message.videoMessage,
-           hydratedContentText: text.trim(),
-           hydratedFooterText: wm,
-           hydratedButtons: [{
-```
-
-### Image Menu Display
-```ts
-let message = await prepareWAMessageMedia({ image: fs.readFileSync('./media/shiraori.jpg')}, { upload: conn.waUploadToServer })
-     const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
-     templateMessage: {
-         hydratedTemplate: {
-           imageMessage: message.imageMessage,
-           hydratedContentText: text.trim(),
-           hydratedFooterText: wm,
-           hydratedButtons: [{
-```
-
-### Location Menu Display
-```ts
- const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
-     templateMessage: {
-         hydratedTemplate: {
-           hydratedContentText: text.trim(),
-           locationMessage: { 
-           jpegThumbnail: fs.readFileSync('./media/shiraori.jpg') },
-           hydratedFooterText: wm,
-           hydratedButtons: [{       
-```
-
-### Video Menu Display
-```ts
-let message = await prepareWAMessageMedia({ video: fs.readFileSync('./media/shiro.mp4')}, { upload: conn.waUploadToServer })
-     const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
-     templateMessage: {
-         hydratedTemplate: {
-           videoMessage: message.videoMessage,
-           hydratedContentText: text.trim(),
-           hydratedFooterText: wm,
-           hydratedButtons: [{           	
-```
-----           
-
-
-## HOW TO CONNECT TO MONGODB WHEN RUN IN HEROKU
-
-* Create account and database in mongodb atlas [`watch here`](https://youtu.be/rPqRyYJmx2g)
-* when you already have a database, you just need to take mongourl
-* Put mongourl in Procfile `web: node . --db 'mongourl'`
-* Example `web: node . -- db 'mongodb+srv://ilman:<password>@cluster0.iiede.mongodb.net/ShiraoriBOT?retryWrites=true&w=majority'`
-
-
-## UNTUK PENGGUNA WINDOWS/VPS/RDP
-
-* Unduh & Instal Git [`Klik Disini`](https://git-scm.com/downloads)
-* Unduh & Instal NodeJS [`Klik Disini`](https://nodejs.org/en/download)
-* Unduh & Instal FFmpeg [`Klik Disini`](https://ffmpeg.org/download.html) (**Jangan Lupa Tambahkan FFmpeg ke variabel lingkungan PATH**)
-* Unduh & Instal ImageMagick [`Klik Disini`](https://imagemagick.org/script/download.php)
-
-```bash
-git clone https://github.com/saipulanuar/YukiBot2022
-cd YukiBot2022
-npm install
-npm update
-npm index
-```
-
----------
-
-## UNTUK PENGGUNA TERMUX
-```bash
-pkg update && pkg upgrade
-pkg install git
-pkg install nodejs
-pkg install ffmpeg
-pkg install imagemagick
-pkg install yarn
-git clone https://github.com/saipulanuar/YukiBot2022
-cd YukiBot2022
-yarn
-node .
-```
-
-## UNTUK PENGGUNA HEROKU
-
-### Instal Buildpack
-* heroku/nodejs
-* https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git
-* https://github.com/jayshreeanand/heroku-buildpack-libwebp.git
-
-## Installing the FFmpeg for Windows
-* Unduh salah satu versi FFmpeg yang tersedia dengan mengklik [di sini](https://www.gyan.dev/ffmpeg/builds/).
-* Extract file ke `C:\` path.
-* Ganti nama folder yang telah di-extract menjadi `ffmpeg`.
-* Run Command Prompt as Administrator.
-* Jalankan perintah berikut::
-```cmd
-> setx /m PATH "C:\ffmpeg\bin;%PATH%"
-```
-Jika berhasil, akan memberikanmu pesan seperti: `SUCCESS: specified value was saved`.
-* Sekarang setelah Anda menginstal FFmpeg, verifikasi bahwa itu berhasil dengan menjalankan perintah ini untuk melihat versi:
-```cmd
-> ffmpeg -version
-```
-
-# Thanks to
- [![Nurutomo](https://github.com/Nurutomo.png?size=150)](https://github.com/Nurutomo) | [![KingOfBear](https://github.com/saipulanuar.png?size=150)](https://github.com/saipulanuar) | [![Istikmal](https://github.com/BochilGaming.png?size=150)](https://github.com/BochilGaming)
-----|----|----
-[Nurutomo](https://github.com/Nurutomo) | [KingOfBear](https://github.com/saipulanuar) | [Istikmal](https://github.com/BochilGaming)
- Author | yg nambah fitur | yg punya sc
-
+<blockquote>Life will always have a different plan for you. If you don’t give up, you will eventually get to your destination. But towards the end of your life, you may look back and realize that it was never really about the destination; it was the journey that counted.
